@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Floating Elements</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+        div {
+            background-color: aqua;
+        }
+        p {
+            width: 50%;
+            float: left;
+            border: 1px solid black; 
+            padding: 10px;
+        }
+
+        #p1 {
+            background-color: blueviolet;
+            float: right;
+        }
+        #p2 {
+            background-color: yellow;
+        }
+        section {
+            clear : both;
+        }
+       
+        </style>
+    </head>
+    <body>
+        <h1>Two Column Design</h1>
+        <div>
+            <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Nihil accusantium expedita, nulla tenetur laborum cupiditate.
+                 Quis quam quos deserunt accusantium aperiam corporis sed corrupti harum adipisci, 
+                temporibus qui. Natus, hic.</p>
+            <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Eveniet dolorem, facere praesentium voluptas ipsam eligendi 
+                 omnis asperiores porro fuga nam similique tempora reprehenderit nostrum, 
+                architecto ducimus amet soluta expedita ipsa?</p>
+            <section>This is regular content continuing after the paragraph boxes.</section>
+        </div>
+
+    </body>
+</html>

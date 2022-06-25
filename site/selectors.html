@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Anatomy of a CSS Rule</title>
+        <style>
+            /* all h2 elements */
+        h2 {
+            color: red;
+            text-align: center;
+        }
+        /* all with class = "highlight" */
+        .highlight {
+            background-color: green;
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+            color: white;
+            opacity: .6;
+        }
+        /* element with id = "mainPoint"*/
+        #mainPoint {
+            font-size: 24px;
+            font-weight: bold;
+            background-color: greenyellow;
+            opacity: .7;
+            color: black;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Simple Selectors (h1)</h1>
+        <h2>Subheading 1 (h2)</h2>
+        <p class="highlight">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Vero aliquid ratione modi. Minus asperiores, 
+            ducimus recusandae optio fuga veniam id assumenda in quia, 
+            magnam similique et quae hic architecto sequi!</p>
+        <p class="highlight">Paragraph with attribute class = "highlight". Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Laboriosam ducimus unde ad atque ipsum consequatur sequi fuga! Commodi nesciunt similique neque et repellendus saepe. 
+            Enim at a dolore harum ad!</p>
+        <h2>Subheading 2 (h2)</h2>
+        <p class="highlight">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Deserunt perferendis molestiae, perspiciatis enim porro inventore,
+            omnis magni reiciendis fugiat labore necessitatibus quasi eveniet fuga explicabo tenetur animi repudiandae magnam nulla.</p>
+        <div>This is the main point of entire practice. 
+            So, attribute 
+            <span id="mainPoint">id="mainPoint".</span>
+        </div>
+    </body>
+</html>
